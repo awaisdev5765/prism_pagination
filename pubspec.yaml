@@ -1,0 +1,30 @@
+name: prism_pagination
+description: >-
+  Infinite-scroll pagination for Flutter — automatic load-more, retryable
+  errors, empty and end-of-list states, with a pluggable page loader. Part of
+  the Prism package family.
+version: 0.1.0
+repository: https://github.com/awaisdev5765/prism_pagination
+issue_tracker: https://github.com/awaisdev5765/prism_pagination/issues
+topics:
+  - pagination
+  - infinite-scroll
+  - list
+  - widget
+  - ui
+
+environment:
+  sdk: ^3.9.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

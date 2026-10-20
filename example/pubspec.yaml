@@ -1,0 +1,15 @@
+name: prism_pagination_example
+description: Demo app for prism_pagination.
+publish_to: none
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  prism_pagination:
+    path: ..
+
+flutter:
+  uses-material-design: true
